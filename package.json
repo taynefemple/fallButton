@@ -18,12 +18,19 @@
   "jest": {
     "preset": "jest-expo"
   },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  },
   "dependencies": {
     "expo": "^25.0.0",
     "react": "16.2.0",
     "react-native": "0.52.0",
     "react-native-elements": "1.0.0-beta2",
     "react-native-phone-call": "^1.0.4",
+    "react-native-textinput-effects": "^0.4.2",
+    "react-navigation": "^1.5.1",
     "watchman": "^1.0.0"
   }
 }
