@@ -1,3 +1,15 @@
+Having worked in the home security industry, an urgent need presented itself to me. I would often find myself in the position of selling a 
+security system with medical alert features for an elderly customer. Oftentimes, they would be on a fixed income and the added expense of 
+the security system plus the alert button was an undue burden. The buttons cost $129 and monitoring could run anywhere from $28-$53/month.
+
+Solution: a fairly easy and inexpensive alert system wired up to a twenty dollar Amazon IoT Button utiliizing existing wifi
+
+This app is meant to be a companion to the IoT button. Ultimately, recipients of the push notification (via Amazon SNS) could immediately 
+access the apps 'Action' view to complete a call to 911 or initiate a wellness check via a neighbor. While the button can be programmed to
+text 911 directly (where available), I decided to establish this app as a middleman to prevent false alarms.
+
+__________________________________________________________________________________________________________________________________________
+
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
